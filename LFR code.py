@@ -13,7 +13,7 @@ enable2 = PWM(Pin(7))
 enable1.freq(1000)
 enable2.freq(1000)
 enable1.duty_u16(50525)
-enable2.duty_u16(50525)
+enable2.duty_u16(50525) #Ofcourse the speed can be changed the motors and duty play an important role...
 
 # IR sensor pins (not used yet in logic)
 right_ir = Pin(2, Pin.IN)
